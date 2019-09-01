@@ -47,6 +47,7 @@ function calc_from_command_line(tbl)
 end
 
 -- main start
+-- #arg is the last element index of the arg table.  arg[0] is the filename.
 if (#arg > 0) then
 	calc_from_command_line(arg)
 else
